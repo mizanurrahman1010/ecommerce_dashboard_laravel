@@ -1,0 +1,65 @@
+.sina-nav .nav-link.active{
+    background: #287a6a !important;
+}
+.full-height-card{
+    min-height: calc( 100vh + 3px );
+}
+.sina-nav > .nav.nav-tabs{
+    border-radius: 4px;
+    border: none;
+    color:#fff;
+    background:#272e38;
+
+}
+.sina-nav > div a.nav-item.nav-link
+{
+    border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#3b424d;
+
+}
+
+.sina-nav > div a.nav-item.nav-link.active:after
+{
+    content: "";
+    position: relative;
+    bottom: -51px;
+    left: -10%;
+    border: 15px solid transparent;
+    border-top-color: #287a6a ;
+}
+.tab-content{
+    background: #fdfdfd;
+    line-height: 25px;
+    padding:30px 25px;
+}
+
+.sina-nav > div a.nav-item.nav-link:hover,
+.sina-nav > div a.nav-item.nav-link:focus
+{
+    border: none;
+    background: #6d6e20;
+    color:#fff;
+    transition:background 0.20s linear;
+}
+i.bx.bx-x.px-2 {
+    line-height: 10px;
+}
+.edit-card-pop{
+    position: fixed;
+    top: 0px;
+    z-index: 99;
+    background: #0000009e;
+    right: 0px;
+    width: 100%;
+    height:100%;
+
+}
+.edit-card-pop > .card {
+    position: fixed;
+    width: 300px;
+    top: 50%;
+    right: 1px;
+    transform: translate(-0%, -50%);
+}
